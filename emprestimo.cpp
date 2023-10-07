@@ -19,7 +19,6 @@ scanf("%f", &Ss);
 
 Vparc = Vempre/parc;
 //Vparc = 0.3 * Ss;
-
     if (Vparc <= 0.3 * Ss){
     printf("O emprestimo feito de %0.1f, em %0.0f vezes.\n",Vempre, parc);
     printf("Valor das parcelas a serem pagas será de: %0.2f\n", Vparc);
